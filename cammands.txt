@@ -1,0 +1,34 @@
+######  pushing code into git Repository  ######
+
+1.git init
+2.git add -A
+3.git commit -m "add all files"
+4.git remote add github  (Repository URl)
+5.git push -f github master
+
+############## Router Guards  ################
+
+ng g guard Auth
+
+############## BOOTSTRAP@4 ##############
+
+npm install bootstrap@4
+
+ "node_modules/bootstrap/dist/css/bootstrap.css"
+
+
+############## BOOTSTRAP ICONS ##############
+
+npm i font-awesome
+
+"node_modules/font-awesome/css/font-awesome.min.css"
+
+#######################################################
+
+ng g c component-name it is
+
+inline template, inline stylesheet
+
+
+####################################
+ngNonBindable
