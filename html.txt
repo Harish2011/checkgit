@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Button disble/enable</title>
+    </head>
+    <body>
+        <form>
+            <div style="color: blue;">
+                Username: <br/>
+                <input type="text" onkeyup="uname()" id="usname"> <b id='erroru' style="color:red"> </b> </br> 
+                Password : <br/>
+                <input type="password"  onkeyup="uname()" id="upass">                        <b id='errorp' style="color:red"></b> </br>
+                <input type="checkbox" onclick="showpass()"> Show password
+                <br/>
+               
+                <input type="button" onclick="showpass()" value="login" id="btn1" hidden> 
+                <input type="button" onmousedown="mouseDown()" onmouseup="mouseUp()" value="Show Password" id="btn2">
+                <input type="button" value="Show/hidden" onclick="sh()">
+            </div>
+             
+        </form >
+      
+    <Script src="buttoncheck.js"></Script>
+    </body>
+</html> 

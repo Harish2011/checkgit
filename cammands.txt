@@ -6,6 +6,23 @@
 4.git remote add github  (Repository URl)
 5.git push -f github master
 
+
+########### git update commands @#################
+
+step1 : git status 
+This will let you know what are the files you have modified.
+
+step2: git add .
+this will add all your files to staging which you have modified.
+
+step 3: git commit -m "your message about the commit"
+this will commit your all added files.
+
+after commit the code is safe in your local repository only. you have to do git push which will push your code to the origin
+
+step 4 git push
+this will publish your code to the remote server.
+
 ############## Router Guards  ################
 
 ng g guard Auth
@@ -32,3 +49,4 @@ inline template, inline stylesheet
 
 ####################################
 ngNonBindable
+

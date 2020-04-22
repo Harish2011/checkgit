@@ -1,0 +1,92 @@
+var form=document.querySelector('form')
+form.addEventListener('spbtn',function(event)
+{
+    event.preventDefault()
+})
+
+function uname()
+{
+    var uname=document.getElementById('usname').value
+
+
+    document.getElementById('erroru').innerHTML=uname
+    
+    
+    
+    var upass=document.getElementById('upass').value
+    document.getElementById('errorp').innerHTML=upass
+
+    var btn=document.getElementById('btn1')
+
+    // Console.log(btn)
+    
+    if(uname !='' && upass!='')
+    {
+        btn.hidden= false
+    }
+    else{
+        btn.hidden= true
+    }
+}
+
+function showpass()
+{
+    var pass=document.getElementById('upass')
+
+    if(pass.type=="password")
+    {
+        pass.type="text"
+    }
+    else{
+        pass.type="password"
+    }
+}
+
+
+
+function mouseDown()
+{
+    var pass=document.getElementById('upass')
+
+    if(pass.type=="password")
+    {
+        pass.type="text"
+    }
+    else{
+        pass.type="password"
+    }
+}
+function mouseUp()
+{
+
+    var pass=document.getElementById('upass')
+
+    if(pass.type!="password")
+    {
+        pass.type="password"
+        
+    }
+    else{
+        pass.type="text"
+    }
+}
+
+function sh()
+{
+    var btn2=document.getElementById('btn2') 
+    
+    if(btn2.hidden!=false)
+    {
+        btn2.hidden=false
+    }
+    else
+    {
+        btn2.hidden=true
+    }
+    
+
+    
+}
+
+
+
